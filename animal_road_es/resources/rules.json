@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "id": "R1",
+      "description": "Животное на проезжей части — высокий риск",
+      "if": { "position": "road" },
+      "then": { "risk": "high", "color": "red" },
+      "priority": 3
+    },
+    {
+      "id": "R2",
+      "description": "Животное на обочине — средний риск",
+      "if": { "position": "shoulder" },
+      "then": { "risk": "medium", "color": "yellow" },
+      "priority": 2
+    },
+    {
+      "id": "R3",
+      "description": "Животных нет — низкий риск",
+      "if": { "position": "none" },
+      "then": { "risk": "low", "color": "green" },
+      "priority": 1
+    }
+  ]
+}

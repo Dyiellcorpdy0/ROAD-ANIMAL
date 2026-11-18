@@ -1,0 +1,13 @@
+{
+  "camera_index": 0,
+  "video_source": "D:\\Универ\\ТИСПиИС\\animal_road_es\\resources\\videos\\video.mp4",
+  "confidence_threshold": 0.45,
+  "frame_width": 960,
+  "frame_height": 540,
+  "show_zone_overlay": true,
+  "log_enabled": true,
+  "road_zone": [0.15, 0.55, 0.85, 1.00],
+  "shoulder_left_zone": [0.00, 0.50, 0.15, 1.00],
+  "shoulder_right_zone": [0.85, 0.50, 1.00, 1.00],
+  "risk_colors": {"low": "green", "medium": "yellow", "high": "red"}
+}
